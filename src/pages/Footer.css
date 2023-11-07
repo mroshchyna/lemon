@@ -1,0 +1,26 @@
+/* Footer  */
+footer {
+  background-color: #fbdabb;
+  height: 31vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 3em 21em 0;
+}
+footer img {
+  width: 26em;
+  margin: 2.2em 7em 0 0;
+}
+
+footer > div {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 2em;
+  font-size: 1.5em;
+  text-align: center;
+}
+footer a {
+  color: #495e57;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}

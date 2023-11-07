@@ -1,0 +1,25 @@
+#bookingFinish {
+  margin-top: 3em;
+  text-align: center;
+  display: none;
+}
+h1 {
+  font-size: 3em;
+  line-height: 1.5;
+  color: #495e57;
+  margin-bottom: 1.5em;
+}
+.resCard h4 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+.resCard {
+  background-color: #ee9972;
+  color: black;
+  width: 35em;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  padding: 10px 3em;
+  border-radius: 50px;
+}

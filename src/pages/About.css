@@ -1,0 +1,42 @@
+/* About section */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  padding: 0.2em 12em;
+  height: 100vh;
+}
+.about-t {
+  /* align-self: center; */
+  margin-right: 5em;
+  padding-top: 20em;
+}
+div.about-img {
+  overflow: hidden;
+}
+.about1,
+.about2 {
+  width: 27.3em;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+.about1 {
+  top: 6em;
+  left: 20em;
+  z-index: 3;
+}
+.about2 {
+  bottom: 27em;
+}
+.about h1 {
+  font-size: 4em;
+}
+.about h4 {
+  font-size: 2.5em;
+  margin: 8px 0;
+}
+.about p {
+  font-size: 1.7em;
+}

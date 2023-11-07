@@ -1,0 +1,88 @@
+/* hero section */
+.hero {
+  height: 55vh;
+  background-color: #495e57;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-img {
+  width: 27em;
+  height: 35em;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  right: -16em;
+}
+.hero-w {
+  /* display: inline-flex; */
+  height: 30vh;
+  justify-content: center;
+  margin-left: 10em;
+  color: #edefee;
+  font-size: 25px;
+}
+.hero-w > h1 {
+  color: #f4ce14;
+  font-size: 45px;
+}
+.hero-w > h4 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.hero-w > button {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f4ce14;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  color: #495e57;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.hero-w > button:hover {
+  background-color: #ee9972;
+  color: #edefee;
+  transition: 0.3s;
+}
+/* Testimonials */
+.testimonials {
+  height: 40vh;
+}
+.testimonials h2 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 2em;
+}
+.cards-rate {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 4em 11em 0 11em;
+}
+.card-rate {
+  background-color: #edefee;
+  justify-self: center;
+  width: 23em;
+  height: 11em;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-rate img {
+  height: 7em;
+  border-radius: 50%;
+  margin: 2em 0 2em 1.3em;
+}
+.card-profile {
+  font-size: 1.1em;
+  align-self: center;
+  margin: 0 0.7em 0 1em;
+  color: #333333;
+}
+h6 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
